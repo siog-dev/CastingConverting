@@ -14,6 +14,9 @@ public class Runner {//runs the program
 		c = (char) (c + 20);
 		System.out.println("Result: " + c);//prints: "Result: U"
 		
+		System.out.println(Integer.toBinaryString(Float.floatToRawIntBits(f)));
+		//prints 1000010100000100000000000000000 (31 bits, positive number first bit 0)
+		
 	}
 
 }
