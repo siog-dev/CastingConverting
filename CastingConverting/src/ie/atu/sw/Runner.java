@@ -11,14 +11,8 @@ public class Runner {//runs the program
 		char c = (char) d; //A char has 16 bits
 		
 		System.out.println("Result: " + c);//prints: "Result: A"
-		c++;
-		System.out.println("Result: " + c);//prints: "Result: B"
-		
-		/*
-		 * 65 is A in ASCII
-		 * A + 1 = B
-		 * 
-		 */
+		c = (char) (c + 20);
+		System.out.println("Result: " + c);//prints: "Result: U"
 		
 	}
 
